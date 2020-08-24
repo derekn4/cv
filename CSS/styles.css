@@ -43,6 +43,38 @@ hr {
     margin: auto;
 }
 
+.topnav {
+    background-color: #E4F9F5;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+
+  .topnav a {
+    float: right;
+    color: #66BFBF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background: #30e3cb;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    /*
+        Insert image here for HOME Button
+    */
+    background-color: #4CAF50;
+    color: white;
+    float: left;
+  }
+
 .top-container {
     background-color: #E4F9F5;
     position: relative;
@@ -92,6 +124,19 @@ hr {
     margin: 100px auto 100px auto;
     text-align: left;
 }
+
+.project-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.work-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
 
 .pro{
     text-decoration: underline;
